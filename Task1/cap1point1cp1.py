@@ -1,9 +1,9 @@
 import math
 
 
-def bisection(TOL, a, b, f):
+def bisection(tol, a, b, f):
     c = None
-    while (b - a) / 2 > TOL:
+    while (b - a) / 2 > tol:
         c = (a + b) / 2
         if f(c) == 0:
             return c
@@ -27,7 +27,7 @@ def c_func(x):
 
 
 if __name__ == "__main__":
-    tol = 1e-6
-    print(f"Task a:\nroot is equal {bisection(tol, 0, 5, a_func)}")
-    print(f"Task b:\nroot is equal {bisection(tol, 0, 2, b_func)}")
-    print(f"Task c:\nroot is equal {bisection(tol, 0, 10, c_func)}")
+    TOL = 1e-7
+    print(f"Task a:\nroot is equal {bisection(TOL, 0, 5, a_func)}")
+    print(f"Task b:\nroot is equal {bisection(TOL, 0, 2, b_func)}")
+    print(f"Task c:\nroot is equal {bisection(TOL, 0, 10, c_func)}")

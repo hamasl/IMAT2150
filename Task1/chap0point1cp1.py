@@ -14,9 +14,9 @@ def nest(c, x, b=[]):
 
 
 if __name__ == '__main__':
-    x = 1.00001
-    px = nest(ones(50), x)
-    qx = ((x ** 51 - 1) / (x - 1))
-    print(f"p({x})={px}")
-    print(f"q({x})={qx}")
-    print(f"Error is {math.fabs(qx - px)}")
+    x_val = 1.00001
+    px = nest(ones(50), x_val)
+    qx = ((x_val ** 51 - 1) / (x_val - 1))
+    print(f"p({x_val})={px}")
+    print(f"q({x_val})={qx}")
+    print(f"Error is {abs(qx - px)}")
