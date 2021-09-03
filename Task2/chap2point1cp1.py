@@ -43,9 +43,10 @@ if __name__ == "__main__":
         [-2, 1, -1]
     ]
     ab = [-2, 1, -3]
+    print("Task a")
     print(naive_gaussian(a, ab))
-    print(a)
-    print(ab)
+    # print(a)
+    # print(ab)
 
     b = [
         [1, 2, -1],
@@ -53,9 +54,10 @@ if __name__ == "__main__":
         [2, -1, 1]
     ]
     bb = [2, 4, 2]
+    print("Task b")
     print(naive_gaussian(b, bb))
-    print(b)
-    print(bb)
+    # print(b)
+    # print(bb)
 
     c = [
         [2, 1, -4],
@@ -63,6 +65,7 @@ if __name__ == "__main__":
         [-1, 3, -2]
     ]
     cb = [-7, -2, 6]
+    print("Task c")
     print(naive_gaussian(c, cb))
-    print(c)
-    print(cb)
+    # print(c)
+    # print(cb)
