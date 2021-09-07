@@ -1,7 +1,4 @@
-import numpy.linalg
-
 import chap2point1cp1 as cp1
-import numpy as np
 
 
 def generate_hilbert(dimension):

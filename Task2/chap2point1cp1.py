@@ -3,12 +3,6 @@ import numpy as np
 
 def naive_gaussian(matrix, answer_matrix):
     """""
-    print(matrix)
-    print(matrix[0])
-    print(matrix[0][0])
-    print(np.finfo(float).eps)
-    """
-    """""
     for j in range(0, len(matrix-1):
         eliminate column j
     
@@ -16,7 +10,7 @@ def naive_gaussian(matrix, answer_matrix):
         for i in range(j + 1, len(matrix)):
             eliminate entry a[j][i]
     
-    Matlab matrix goaes from 1 to n where n is len(matrix), python goes from 0 to n-1
+    Matlab matrix goes from 1 to n where n is len(matrix), python goes from 0 to n-1
     
     """""
 
