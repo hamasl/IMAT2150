@@ -21,7 +21,6 @@ def midpoint(w0, t0, h, steps, functions):
 
 
 def trapezoid(w0, t0, h, steps, functions):
-    # Adding dummy 0 for current k and w to use the same index
     w = np.array([w0])
     t = np.array([t0])
     for i in range(steps):
@@ -32,7 +31,6 @@ def trapezoid(w0, t0, h, steps, functions):
 
 
 def rk4(w0, t0, h, steps, functions):
-    # Adding dummy 0 for current k and w to use the same index
     w = np.array([w0])
     t = np.array([t0])
     for i in range(steps):
