@@ -1,5 +1,5 @@
-import chap6point4cp1 as cp1_64
-import chap6point1cp1 as cp1_61
+from Task4 import chap6point4cp1 as cp1_64
+from Task4 import chap6point1cp1 as cp1_61
 import matplotlib.pyplot as plt
 
 

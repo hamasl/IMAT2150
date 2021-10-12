@@ -1,5 +1,5 @@
 import math
-import chap6point1cp1 as cp1
+from Task4 import chap6point1cp1 as cp1
 
 
 def correct_sol(t):
